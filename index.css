@@ -1,0 +1,113 @@
+/*PAGE STYLING*/
+body {   
+    background-color: #e4e9de;
+}
+
+header {
+    text-align: center;
+    background-color: #ced7bf;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.work {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    padding: 20px
+}
+
+/*NAV BAR*/
+a { 
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    margin: 0;
+}
+
+.nav {
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+    border-right: 1px solid #ccc;  
+}
+
+.nav li:last-child {
+    border-right: none;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.nav a:hover {
+    background-color: lightgray;
+}
+
+/*TXT STYLING*/
+.resumetext {
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 5px;
+    list-style-position: inside;
+    background-color: white;;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+hr {
+    width: 10%;
+}
+
+.bullet {
+    text-align: left;
+    margin-left: 350px;
+    padding: 10px;
+}
+
+h1 {
+   color: #1b4d3e;
+}
+
+.resumehead {
+    margin-left: 240px
+}
+
+h3 {
+    color: #1b4d3e;
+    padding: 10px;
+}
+
+.subsubhead {
+    text-align: left;
+    margin-left: 330px;
+    
+}
+
+
+.button:link {
+    color: black;
+    border: 1px solid ;
+    background-color: lightyellow;
+    padding: 10px;
+    position: relative;
+    bottom: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
