@@ -1,0 +1,86 @@
+/*PAGE STYLING*/
+span {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+li {
+    float: left;
+}
+
+header {
+    padding-bottom: 30px;
+}
+
+body {
+    background-image: url(plato.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*NAV BAR*/
+.dropbtn {
+  background-color: white;
+  color: black;
+ padding: 10px 16px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px 
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: lightgray;}
+
+
+/*TXT STYLING*/
+.txttitle {
+    color: black;
+}
+
+.txt {
+    text-align: left;
+    background-color: white;
+   margin-left: 300px;
+    margin-right: 300px;
+    padding: 13px;
+     border:1px solid black;
+}
+
+p {
+    padding: 5px;
+}
+
+.nav {
+    color: black;
+    text-decoration: none;
+}
+
+.btt {
+    position: fixed;
+    left: 85px;
+    bottom: 50px;
+}
